@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html , body{
+    height: 100%;
+    width: 100%;
+} */
+
+#back1{
+    background-image: url(goa2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+     width: 100vw;
+    height: 120vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+   height: 600px;
+   width: 700px;
+   background-color: rgba(40, 42, 40, 0.461);
+   border-radius: 10px;
+   
+}
+
+.box h1{
+    font-size: 35px;
+    color: rgb(224, 162, 47);
+    text-align: center; 
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box p{
+    text-align: center;
+    color: rgba(232, 224, 224, 0.632);
+}
+
+.cal1{
+    color: rgba(240, 255, 255, 0.726);
+    font-size: 19px;
+    /* margin-left: 30px;
+    margin-top: 30px; */
+}
+
+.under{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cal1:hover{
+    /* color: aquamarine; */
+    background-color: blueviolet;
+}
+
+
+.btn{
+    background-color: rgb(202, 141, 28);
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    border: 4px solid rgb(198, 157, 81);
+    margin-left:400px ;
+}
+
+.cola{
+    background-color: rgba(44, 41, 41, 0.747);
+    height:140px;
+    width: 650px;
+    margin-left: 20px;
+    border-radius: 15px;
+    display: flex;
+    gap: 40px;
+}
+
+.cal{
+        color: rgb(224, 162, 47);
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 30px;
+}
+
+.coton{
+  
+   height: 300px;
+   background-color: rgba(44, 41, 41, 0.747);
+   height:230px;
+   width: 650px;
+   margin-left: 20px;
+   border-radius: 15px;
+   margin-top: 20px;
+   display: flex;
+   gap: 10px;
+   display: flex;
+   padding-left: 20px;
+} 
+
+.c1,.c2,.c3,.c4{
+    margin-top:15px ;
+    background-color:rgba(24, 22, 22, 0.653) ;
+    width: 144px;
+    height: 200px;
+    border-radius: 20px;
+    
+}

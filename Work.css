@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.milanw{
+    padding-top: 100px;
+     background-color: azure;
+    height: 410vh;
+    padding-bottom: 100px;
+}
+
+.cardac{
+    margin-left: 150px;
+    margin-top: 100px;
+    grid-template-columns: 400px 400px 400px ;
+    display:grid;
+    grid-auto-rows: 350px 350px 350px;
+ 
+    height:300vh ;
+  
+}
+
+.e1,.e2,.e3,.e4,.e5,.e6,.e7,.e8,.e9,.e10,.e11,.e12,.e13,.e14,.e15,.e16,.e17,.e18,.e19,.e20{
+    /* border: 2px solid black; */
+     gap: 10px;
+}
+
+.carda{
+    
+    
+
+    background-color: rgb(46, 120, 102);
+    height: 269px;
+    width: 370px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 8px solid azure;
+    /* background-color: white; */
+    border-radius: 17px;
+    transition: all 2s ease;
+}
+
+.imagin{
+     height: 250px;
+     width: 350px;
+}
+
+.fwork1{
+background-color: aquamarine;
+height: 360px;
+width: 400px;
+margin-top: 10px;
+margin-left: 50px;
+border: 12px solid azure;
+background-color: white;
+border-radius: 15px;
+
+
+}
+
+.imgwagin{
+    margin-left: 25px;
+    margin-top: 25px;
+    border: 6px solid  #faf6f6;
+    border-radius: 10px;
+    height: 250px;
+    width: 320px;
+}
+
+@media (max-width: 470px) {
+    .milanw {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+    .cardac {
+      margin-left: 20px;
+      margin-top: 50px;
+      grid-template-columns: repeat(1, 300px);
+    }
+  
+    .carda {
+      height: 200px;
+      width: 280px;
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  
+    .imagin {
+      height: 180px;
+      width: 260px;
+    }
+  
+    .fwork1 {
+        height: 280px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      .imgwagin {
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 200px;
+        width: 280px;
+      }
+    }
+    

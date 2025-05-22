@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html , body{
+    height: 100%;
+    width: 100%;
+} */
+
+#textit{
+    height: 350vh;
+    
+}
+
+#textit .hear{
+    padding-top: 100px;
+     /* background-color: aqua; */
+     height: 500px;
+     display: flex;
+     border-bottom: 2px solid black;
+     justify-content: space-evenly;
+     align-items: center;
+     /* background: linear-gradient(to right, #ADD8E6, #F7F7F7 30%, #C9E4CA 70%, #87CEEB); */
+     
+     background: linear-gradient(to right, #FFC107, #FFA07A, #FF69B4);
+
+     animation: backg 5s ease infinite;
+
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+  @keyframes backg{
+    10%{
+        background:linear-gradient(to right,blanchedalmond blueviolet,burlywood,brown,gainsboro);
+        transition: calc(3s);
+    }
+    
+    30%{
+        background:linear-gradient(to right, #FFC5C5, #FFD7BE, #FFFFC2, #C6F4D6, #B2FFFC);
+
+        transition: calc(3s);
+     
+    }
+
+    60%{
+        background: linear-gradient(to right, #87CEEB, #4682B4, #1A1D23);
+
+        transition: calc(3s);
+    }
+    90%{
+        background:linear-gradient(to right,blanchedalmond blueviolet,burlywood,brown,gainsboro);
+
+        transition: calc(3s);
+    }
+    100%{
+
+background: linear-gradient(to right, #FFC107, #FFA07A, #FF69B4);
+       
+transition: calc(3s);
+    }
+  }
+
+#love1{
+    font-size: 70px;
+    padding-bottom: 80px;
+    margin-right: 300px;
+    color:darkslategray;
+}
+ 
+#collab1{
+    font-size: 20px;
+    
+}
+
+#form{
+    margin-top: 160px;
+    margin-left: 350px;
+    height: 110vh;
+    width: 800px;
+    background-color:white;
+    border-radius: 20px;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.f{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
+
+  .in{
+    margin-top: 30px;
+    margin-left:100px ;
+    height: 60px;
+    width: 600px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.inn{
+    margin-top: 30px;
+    margin-left:100px ;
+    height: 110px;
+    width: 600px;
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+
+#check{
+    height: 80px;
+    width: 290px;
+    border: 2px solid rgb(149, 142, 142);
+    margin-top: 60px;
+    margin-left:100px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.checkbox{
+    height: 50px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.am{
+   padding-left: 20px;
+   padding-bottom: 15px;
+}
+
+.robot{
+    height: 60px;
+    width: 90px;
+    margin-left:50px ;
+
+    margin-bottom: 0px;
+}
+
+#btnnn{
+    height: 60px;
+    width: 600px;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color:black;
+    color: white;
+}
+
+#btnnn:hover{
+    background-color:darkslategrey;
+    color: white;
+    
+}
+
+#bigd{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    width: 80vw;
+    margin-left: 150px;
+    background-color: azure;
+    margin-bottom: 200px;
+}
+
+.touch p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.add p{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.con p{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.icn{
+    display: flex;
+}
+.tele{
+    display: flex;
+}
